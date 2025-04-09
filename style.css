@@ -4,11 +4,19 @@
 		{
 			background-color: #F7B32B; /* ORANGE */
 		}
-	
-	
-	
-	
-	
+	.fluidh {
+		   opacity: 1;
+			display: block;
+			width: 100%;
+			height: auto;
+			transition: .5s ease;
+			backface-visibility: hidden;
+	}
+
+	.fluidh:hover
+	{
+	opacity: 0.3;
+	}
 
 	a 	/* Link style */
 		{
@@ -18,6 +26,7 @@
 	a:hover 
 	{
 		color:#5E2BFF;
+		opacity: 1;
 	}
 		
 	.big-h1 /* Header style */
