@@ -26,6 +26,11 @@
 	a 	/* Link style */
 		{
 			color:#F72C25; /* RED */
+			/* text-shadow:
+			-1px -1px 0 black,
+			1px -1px 0 black,
+			-1px  1px 0 black,
+			1px  1px 0 black;*/
 			
 		}
 	a:hover 
@@ -37,15 +42,22 @@
 	h1{
 		color:#2D1E2F; /* PURPLE */
 		font-family: Arial, Helvetica, sans-serif;
+		
 	
 	}
 	.big-h1 /* Header style */
 		{
 			font-family: Arial, Helvetica, sans-serif;
 			
-			color: black;
-			/*color:#F72C25; RED */
-			font-size:350%
+			/*color: black;*/
+			color:#F72C25; /* RED */
+			font-size:350%;
+			    text-shadow:
+			-1px -1px 0 black,
+			1px -1px 0 black,
+			-1px  1px 0  black,
+			1px  1px 0  black;
+			
 		}
 		
 	p /* Paragraph style */
